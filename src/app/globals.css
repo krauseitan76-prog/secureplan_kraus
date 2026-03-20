@@ -1,0 +1,14 @@
+:root {
+  --bg:#07080b; --s1:#0d0f14; --s2:#13161d; --s3:#191c25;
+  --bd:#1e2130; --bd2:#2a2e3d;
+  --text:#dce1ef; --dim:#525a70; --dim2:#363c50;
+  --amber:#e8a020; --orange:#e05a20; --purple:#9040e0;
+  --blue:#2090e0; --teal:#10a870; --red:#e02040;
+  --r:6px; --r2:10px;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html,body{height:100%;overflow:hidden;background:var(--bg);color:var(--text)}
+@keyframes slideIn{from{opacity:0;transform:translateX(5px)}to{opacity:1;transform:none}}
+@keyframes fadeIn{from{opacity:0}to{opacity:1}}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.25}}
